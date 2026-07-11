@@ -1,0 +1,16 @@
+{
+  "candidate_id": "mcs-api-21",
+  "repo": "kubernetes-sigs/mcs-api",
+  "issue_number": 21,
+  "issue_url": "https://github.com/kubernetes-sigs/mcs-api/issues/21",
+  "title": "Intro tutorials for MCS API use cases",
+  "description": "Develop some vendor agnostic intro tutorials about the MCS API that can be easily digested as part of a generic documentation push. Keep them implementation agnostic but I think it would be useful to tie them to some common use cases as suggested below.\r\n\r\nIdeas:\r\n* MCS for a single-cluster stateful service serving multiple clusters (single ServiceExport case) (see [this walkthrough](https://cloud.google.com/kubernetes-engine/docs/how-to/migrate-gke-multi-cluster#migrate_to_multi-cluster_service",
+  "stars": 260,
+  "language": "Go",
+  "created_at": "2022-11-17T00:26:18Z",
+  "labels": [
+    "good first issue",
+    "help wanted",
+    "sig/multicluster"
+  ]
+}
