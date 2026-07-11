@@ -1,0 +1,17 @@
+{
+  "candidate_id": "rustchain-bounties-2786",
+  "repo": "Scottcjn/rustchain-bounties",
+  "issue_number": 2786,
+  "issue_url": "https://github.com/Scottcjn/rustchain-bounties/issues/2786",
+  "title": "[ONBOARD: 3 RTC] Compare RustChain to Another Blockchain Project",
+  "description": "## Bounty: 3 RTC\n\n### What You'll Do\nResearch RustChain and compare it to another blockchain project you know.\n\n### Steps\n1. **Pick any other blockchain project**: Bitcoin, Ethereum, Solana, Ergo, Chia, whatever you know\n2. **Write a comparison** (300-800 words) covering:\n   - Consensus mechanism differences (PoW vs PoS vs PoA vs RustChain's Proof of Antiquity)\n   - Hardware requirements\n   - Environmental approach\n   - Community model\n   - What each project does better\n3. **Post as a comment he",
+  "stars": 229,
+  "language": "Python",
+  "created_at": "2026-04-02T15:42:09Z",
+  "labels": [
+    "good first issue",
+    "bounty",
+    "community",
+    "onboarding"
+  ]
+}
