@@ -1,0 +1,16 @@
+{
+  "candidate_id": "ungoogled-chromium-3675",
+  "repo": "ungoogled-software/ungoogled-chromium",
+  "issue_number": 3675,
+  "issue_url": "https://github.com/ungoogled-software/ungoogled-chromium/issues/3675",
+  "title": "Support Unified Push",
+  "description": "### Description\n\nSupport Unified Push\n\n### Who's implementing?\n\n- [ ] I'm willing to implement this feature myself\n\n### The problem\n\nungoogled-chromium does not have a  web push system\n\n### Possible solutions\n\nhttps://unifiedpush.org/users/distributors/kunifiedpush/\n\n### Alternatives\n\n_No response_\n\n### Additional context\n\n_No response_",
+  "stars": 27090,
+  "language": "Python",
+  "created_at": "2026-03-01T07:59:02Z",
+  "labels": [
+    "enhancement",
+    "help wanted",
+    "need info"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "candidate_id": "taOS-1771",
+  "repo": "jaylfc/taOS",
+  "issue_number": 1771,
+  "issue_url": "https://github.com/jaylfc/taOS/issues/1771",
+  "title": "Pi 5 + Hailo-10H (AI HAT+2, 40 TOPS): wire the hailo-genai LLM backend (community help wanted)",
+  "description": "Tracking issue for accelerated LLM inference on the Raspberry Pi 5 with the Hailo-10H (AI HAT+2, 40 TOPS). Community help wanted from anyone who has this exact hardware.\n\n## Primary goal: zero-touch, auto-detected + auto-installed (parity with the RK3588 NPU)\nThe bar is the same as the Rockchip NPU experience: the user should NOT have to hand-configure anything. On install, taOS should detect the Hailo accelerator and set up its driver + runtime + backend automatically, exactly like it does for ",
+  "stars": 423,
+  "language": "Python",
+  "created_at": "2026-07-10T15:42:45Z",
+  "labels": [
+    "help wanted",
+    "feature",
+    "future",
+    "models",
+    "backend-driven",
+    "catalog",
+    "kilo-triaged",
+    "kilo-auto-fix"
+  ]
+}

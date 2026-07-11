@@ -1,0 +1,16 @@
+{
+  "candidate_id": "alloy-scenarios-265",
+  "repo": "grafana/alloy-scenarios",
+  "issue_number": 265,
+  "issue_url": "https://github.com/grafana/alloy-scenarios/issues/265",
+  "title": "New scenario: metric-cardinality-control (Cardinality control with prometheus.relabel)",
+  "description": "## What this scenario demonstrates\n\nControl metric **cardinality and cost** with `prometheus.relabel` \u2014 drop high-cardinality labels (e.g. dynamic IDs, query params), drop entire noisy series, and rename/aggregate \u2014 before `remote_write`. The pull-model, Prometheus-native counterpart to the OTel `otel-examples/cost-control` scenario.\n\n## Why users want it\n\nCardinality blow-up is the #1 metrics cost driver. Showing concrete relabel rules that cut a metric's series count is broadly requested and e",
+  "stars": 370,
+  "language": "Python",
+  "created_at": "2026-06-29T18:11:40Z",
+  "labels": [
+    "enhancement",
+    "good first issue",
+    "help wanted"
+  ]
+}
