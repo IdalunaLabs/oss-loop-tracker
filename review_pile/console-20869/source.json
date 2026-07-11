@@ -1,0 +1,17 @@
+{
+  "candidate_id": "console-20869",
+  "repo": "kubestellar/console",
+  "issue_number": 20869,
+  "issue_url": "https://github.com/kubestellar/console/issues/20869",
+  "title": "[quality] Scanner tool malfunction: PR #20868 replaced 5 test files with base64 blobs \u2014 need guardrail + tool fix",
+  "description": "## Finding\n\nPR #20868 (`[scanner] fix: auto-QA memory leaks and any-type reductions`) claims to make small, focused test improvements (`vi.clearAllTimers()` + `any` \u2192 concrete types). The actual diff is dramatically different from the description:\n\n**5 test files have been overwritten with single-line base64-encoded blobs of their original content**, silently deleting ~1,032 lines of test coverage:\n\n| File | Deletions | Replacement |\n|---|---|---|\n| `web/src/components/dashboard/customizer/secti",
+  "stars": 120,
+  "language": "TypeScript",
+  "created_at": "2026-07-11T18:10:35Z",
+  "labels": [
+    "help wanted",
+    "quality",
+    "testing",
+    "test-infrastructure"
+  ]
+}

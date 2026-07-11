@@ -1,0 +1,15 @@
+{
+  "candidate_id": "cc-lens-32",
+  "repo": "Arindam200/cc-lens",
+  "issue_number": 32,
+  "issue_url": "https://github.com/Arindam200/cc-lens/issues/32",
+  "title": "Star (bookmark) sessions and attach local notes",
+  "description": "## Summary\n\nLet users **star (bookmark)** sessions and attach a short **private note** to any session. Both persist locally in `~/.cc-lens/` so they survive restarts, and never leave the machine.\n\n## Why\n\nWhen you have hundreds of sessions, you lose the important ones. A star lets you mark \"this is the session where I set up auth\" and find it later; a note lets you record why it mattered. This is the natural local-first companion to the existing sessions list, and it stays true to the no-cloud, ",
+  "stars": 559,
+  "language": "TypeScript",
+  "created_at": "2026-06-13T18:16:04Z",
+  "labels": [
+    "enhancement",
+    "help wanted"
+  ]
+}
