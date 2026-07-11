@@ -1,0 +1,16 @@
+{
+  "candidate_id": "atomic-1094",
+  "repo": "bastani-inc/atomic",
+  "issue_number": 1094,
+  "issue_url": "https://github.com/bastani-inc/atomic/issues/1094",
+  "title": "Investigate configurable timeout for remote MCP server calls",
+  "description": "## Summary\n\nInvestigate adding a configurable timeout option for remote MCP server calls in Atomic's MCP client.\n\n## Motivation\n\nRemote MCP servers can hang, run slowly, or depend on unreliable network paths. Atomic should have an explicit timeout policy for remote MCP requests so workflows fail predictably instead of waiting on an unbounded or opaque client default.\n\nThe MCP lifecycle spec expects implementations to set request timeouts and says SDKs/middleware should allow per-request timeout ",
+  "stars": 277,
+  "language": "TypeScript",
+  "created_at": "2026-05-28T17:38:24Z",
+  "labels": [
+    "enhancement",
+    "help wanted",
+    "good first issue"
+  ]
+}
