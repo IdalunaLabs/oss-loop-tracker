@@ -1,8 +1,23 @@
 {
   "candidate_id": "atomic-1094",
-  "claim_status": "WORK_IN_PROGRESS",
-  "fixes_applied": [],
+  "claim_status": "SUBMITTED",
+  "fixes_applied": [
+    "Add timeoutMs field to ServerEntry in types.ts",
+    "Pass timeoutMs to Client constructor as requestTimeout in server-manager.ts",
+    "Add type-level test for timeoutMs field"
+  ],
   "fixes_needed": [],
   "cursor_verdict": null,
-  "updated_at": "2026-07-11T14:42:55.848492+00:00"
+  "updated_at": "2026-07-11T16:27:43.306567+00:00",
+  "self_verify": {
+    "passed": true,
+    "confidence": "high",
+    "checks_run": [
+      "syntax",
+      "diff_review",
+      "type_check"
+    ],
+    "notes": "TypeScript type check passes (no errors from modified files). Diff is minimal and focused. Changes directly address the issue proposal."
+  },
+  "pr_url": "https://github.com/bastani-inc/atomic/pull/1734"
 }
