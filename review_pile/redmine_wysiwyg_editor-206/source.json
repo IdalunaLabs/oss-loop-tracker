@@ -1,0 +1,15 @@
+{
+  "candidate_id": "redmine_wysiwyg_editor-206",
+  "repo": "taqueci/redmine_wysiwyg_editor",
+  "issue_number": 206,
+  "issue_url": "https://github.com/taqueci/redmine_wysiwyg_editor/issues/206",
+  "title": "Problem with plugin Redmine draw.io",
+  "description": "I use plugin draw.io and its not compatible https://github.com/mikitex70/redmine_drawio\n\n<img width=\"2307\" height=\"219\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/f85e52a3-d6be-4a23-836f-e1387973ea88\" />\n\n",
+  "stars": 129,
+  "language": "JavaScript",
+  "created_at": "2026-03-10T08:54:21Z",
+  "labels": [
+    "help wanted",
+    "plugin conflict?"
+  ]
+}
