@@ -1,8 +1,15 @@
 {
   "candidate_id": "actual-1483",
-  "claim_status": "WORK_IN_PROGRESS",
-  "fixes_applied": [],
+  "claim_status": "SUBMITTED",
+  "pr_url": "https://github.com/IdalunaLabs/actual/pull/1",
+  "pr_number": 1,
+  "branch": "fix/issue-1483",
+  "fixes_applied": [
+    "Migrated packages/sync-server/src/app-cors-proxy.js to TypeScript (app-cors-proxy.ts)",
+    "Added type annotations: Express Request/Response, PluginEntry, BinaryData types",
+    "Typed allowlist cache as string[], caught exceptions as Error"
+  ],
   "fixes_needed": [],
   "cursor_verdict": null,
-  "updated_at": "2026-07-11T18:47:25.123200+00:00"
+  "updated_at": "2026-07-12T01:05:00.000000+00:00"
 }
