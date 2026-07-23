@@ -1,8 +1,9 @@
 {
   "candidate_id": "onnx-4611",
-  "claim_status": "WORK_IN_PROGRESS",
+  "claim_status": "DROPPED",
   "fixes_applied": [],
   "fixes_needed": [],
   "cursor_verdict": null,
-  "updated_at": "2026-07-12T00:51:41.532493+00:00"
+  "updated_at": "2026-07-23T23:44:07.543693",
+  "drop_reason": "Issue closed upstream on 2026-07-16"
 }
