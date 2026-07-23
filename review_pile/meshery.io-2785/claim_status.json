@@ -1,8 +1,12 @@
 {
   "candidate_id": "meshery.io-2785",
-  "claim_status": "WORK_IN_PROGRESS",
-  "fixes_applied": [],
+  "claim_status": "SUBMITTED",
+  "fixes_applied": [
+    "Add syncToggleIcon() IIFE to sync moon/sun toggle icon from localStorage on every page load",
+    "Replace hardcoded relative ../assets/ paths in setMode() with window.siteBaseUrl for sub-page correctness"
+  ],
   "fixes_needed": [],
   "cursor_verdict": null,
-  "updated_at": "2026-07-11T22:50:26.121549+00:00"
+  "updated_at": "2026-07-23T23:43:59.829133",
+  "pr_url": "https://github.com/meshery/meshery.io/pull/2829"
 }
